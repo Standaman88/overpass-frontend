@@ -3,5 +3,5 @@ import styled from 'styled-components'
 import { SectionDark } from '../Section'
 
 export const FooterSectionWrap = styled(SectionDark)`
-  // styles go here
+  min-height: 240px;
 `;
