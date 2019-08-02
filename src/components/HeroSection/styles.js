@@ -5,5 +5,9 @@ import HeroImage from './images/hero.svg'
 
 
 export const HeroSectionWrap = styled(SectionPrimary)`
-  background-image: url(${HeroImage})
+  background-image: url(${HeroImage});
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 550px;
 `;
