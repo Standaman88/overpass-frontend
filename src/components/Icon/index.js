@@ -24,7 +24,7 @@ const ICONS = {
   upload: IconUpload,
 };
 
-export const Icon = styled.img(({ name="payments" }) => ({
+export const Icon = styled.img.attrs(({ name="payments" }) => ({
   src: name in ICONS ? ICONS[name] : name
 }))`
   display: inline-block;
