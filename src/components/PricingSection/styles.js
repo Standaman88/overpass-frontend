@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Section from '../Section'
+import { SectionLight } from '../Section'
 
-export const PricingSectionWrap = styled(Section)`
+export const PricingSectionWrap = styled(SectionLight)`
   // styles go here
 `;

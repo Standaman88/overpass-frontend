@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Section from '../Section'
+import { SectionPrimaryLight } from '../Section'
 
-export const MonitorSectionWrap = styled(Section)`
+export const MonitorSectionWrap = styled(SectionPrimaryLight)`
   // styles go here
 `;
