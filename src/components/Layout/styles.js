@@ -21,6 +21,7 @@ export const Column = styled.div`
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   margin: 0;
   padding: 0;
 `;
