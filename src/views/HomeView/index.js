@@ -12,7 +12,6 @@ import FooterSection from '../../components/FooterSection'
 
 const HomeView = () => (
   <Layout>
-    <section id="navbar" className="bg-primary"></section>
     <NavbarSection className="bg-primary" />
     <IntroSection className="bg-primary" />
     <AgentSection />
