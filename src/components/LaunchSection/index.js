@@ -10,9 +10,9 @@ const LaunchSection = () => (
   <LaunchSectionWrap>
     Launch Section
     <Row>
-      <InfoBlock icon="analytics" title="Test Title">Easily upload and manage your contacts with custom fields and dynamic lists.</InfoBlock>
-      <InfoBlock icon="analytics" title="Test Title">Easily upload and manage your contacts with custom fields and dynamic lists.</InfoBlock>
-      <InfoBlock icon="analytics" title="Test Title">Easily upload and manage your contacts with custom fields and dynamic lists.</InfoBlock>
+      <InfoBlock icon="upload" title="Upload your leads">Easily upload and manage your contacts with custom fields and dynamic lists.</InfoBlock>
+      <InfoBlock icon="calling" title="Start Calling">Use custom outbound numbers, calling queues and our preview dialer to ensure success with your call campaigns.</InfoBlock>
+      <InfoBlock icon="script" title="Write your script">Create personalized scripts to ensure brand consistency by specifying exactly what agents should say on the phone.</InfoBlock>
     </Row>
   </LaunchSectionWrap>
 );
