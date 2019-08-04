@@ -15,7 +15,7 @@ export const InfoBlockIcon = styled(Column)`
 `;
 
 export const Title = styled.h4`
-  color: #1E95EE;
+  color: ${props => props.color || '#1E95EE'};
   font-family: Arial, san-serif;
   font-size: 20px;
   font-weigth: bold;
@@ -24,7 +24,7 @@ export const Title = styled.h4`
 `;
 
 export const Description = styled.p`
-  color: #1E95EE;
+  color: ${props => props.color || '#1E95EE'};
   font-family: Arial, san-serif;
   font-size: 14px;
   line-height: 1.25em;

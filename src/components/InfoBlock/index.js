@@ -8,7 +8,7 @@ import { InfoBlockWrap, InfoBlockIcon, Title, Description } from './styles'
 
 
 
-const InfoBlock = ({ icon="analytics", title, description, children }) => (
+const InfoBlock = ({ icon="analytics", title, description, children, color="#1E95EE" }) => (
   <InfoBlockWrap>
     <Row>
       <InfoBlockIcon>
@@ -16,8 +16,8 @@ const InfoBlock = ({ icon="analytics", title, description, children }) => (
       </InfoBlockIcon>
       <Column>
         <div>
-          <Title>{title}</Title>
-          <Description>{ description || children }</Description>
+          <Title color={color}>{title}</Title>
+          <Description color={color}>{ description || children }</Description>
         </div>
       </Column>
     </Row>
