@@ -13,7 +13,7 @@ export const Column = styled.div`
   flex-direction: column;
   margin: 0;
   padding: 0;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
 `;
