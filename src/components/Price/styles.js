@@ -2,7 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-export const PriceWrap = styled.span``;
+export const PriceWrap = styled.span`
+  && * {
+    color: ${props => props.color || '#1E95EE'} !important;
+  }
+`;
 
 export const Digit = styled.strong`
   color: #1E95EE;
