@@ -4,12 +4,12 @@ import { Column } from '../Layout'
 import { SectionPrimary } from '../Section'
 
 
-export const InfoBlockWrap = styled.div`
+export const InfoBoxWrap = styled.div`
   display: inline-flex;
   max-width: 300px;
 `;
 
-export const InfoBlockIcon = styled(Column)`
+export const InfoBoxIcon = styled(Column)`
   justify-content: flex-start;
   margin-right: 20px;
 `;
