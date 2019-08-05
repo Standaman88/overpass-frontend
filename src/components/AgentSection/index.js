@@ -4,9 +4,9 @@ import { Column, Row, ResponsiveRow } from '../Layout'
 import Paragraph from '../Paragraph'
 import Section from '../Section'
 import Title from '../Title'
+import { AgentSectionWrap, Half, Subtitle } from './styles'
 import SearchImage from './images/search.svg'
 import ProfilesImage from './images/profiles.svg'
-import { AgentSectionWrap, Half, Subtitle } from './styles'
 
 
 const AgentSection = () => (
