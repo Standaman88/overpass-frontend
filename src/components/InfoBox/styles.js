@@ -17,9 +17,3 @@ export const InfoBoxIcon = styled(Column)`
   justify-content: flex-start;
   margin-right: 20px;
 `;
-
-export const Description = styled.p`
-  font-family: Arial, san-serif;
-  font-size: 14px;
-  line-height: 1.25em;
-`;
