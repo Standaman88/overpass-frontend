@@ -7,6 +7,10 @@ import { SectionPrimary } from '../Section'
 export const InfoBoxWrap = styled.div`
   display: inline-flex;
   max-width: 300px;
+
+  && * {
+    color: ${props => props.color || '#1E95EE'};
+  }
 `;
 
 export const InfoBoxIcon = styled(Column)`
@@ -14,17 +18,7 @@ export const InfoBoxIcon = styled(Column)`
   margin-right: 20px;
 `;
 
-export const Title = styled.h4`
-  color: ${props => props.color || '#1E95EE'};
-  font-family: Arial, san-serif;
-  font-size: 20px;
-  font-weigth: bold;
-  margin: 0;
-  margin-bottom: 0.5em;
-`;
-
 export const Description = styled.p`
-  color: ${props => props.color || '#1E95EE'};
   font-family: Arial, san-serif;
   font-size: 14px;
   line-height: 1.25em;
