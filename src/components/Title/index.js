@@ -15,7 +15,7 @@ const Title = styled.h3`
   h2&& { font-size: 42px; }
   h3&& { font-size: 36px; }
   h4&& { font-size: 20px; }
-  h5&& { font-size: 16px; }
+  h5&& { font-size: 18px; }
   h6&& { font-size: 12px; }
 `;
 
