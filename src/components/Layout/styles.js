@@ -31,7 +31,8 @@ export const Row = styled.div`
 
 export const ResponsiveRow = styled(Row)`
   flex-wrap: wrap;
-  /* flex-basis: 100px;
+  justify-content: center;
+  flex-basis: 10px;
   flex-grow: 1;
-  flex-shrink: 1; */
+  flex-shrink: 1;
 `
