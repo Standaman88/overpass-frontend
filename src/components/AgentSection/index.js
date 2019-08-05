@@ -13,7 +13,7 @@ const AgentSection = () => (
   <AgentSectionWrap>
     <ResponsiveRow>
       <Half>
-        <img src={SearchImage} />
+        <img src={SearchImage} style={{padding:20}} />
         <Title as="h3">Find the perfect agent</Title>
         <Paragraph color="#3A3C3E" size="large" style={{maxWidth:445,textAlign:'center'}}>
           No more browsing through thousands of applications.
