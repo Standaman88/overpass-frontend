@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { PriceBoxWrap, Digit, Sign, Time } from './styles'
+import { PriceWrap, Digit, Sign, Time } from './styles'
 
 
-const Price = ({ time='', before='', after='', children ...props }) => (
+const Price = ({ time='', before='', after='', children, ...props }) => (
   <PriceWrap {...props}>
     {before && <Sign>{before}</Sign>}
     <Digit>{children}</Digit>
