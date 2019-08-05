@@ -11,7 +11,7 @@ import { HighlightBoxWrap, Description } from './styles'
 
 const HighlightBox = ({ color="#1E95EE", position="left", title, description, children }) => (
   <HighlightBoxWrap position={position} color={color}>
-    <Title>{title}</Title>
+    <Title as="h2" style={{marginBottom:40}}>{title}</Title>
     <Description>{ description || children }</Description>
   </HighlightBoxWrap>
 );
