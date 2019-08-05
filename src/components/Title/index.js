@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 const Title = styled.h3`
-  color: #2A88FA;
+  color: ${props => props.color || '#2A88FA'};
   font-family: Arial, san-serif;
   /* font-size: 42px; */
   font-weight: bold;
