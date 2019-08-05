@@ -6,7 +6,7 @@ const Title = styled.h3`
   color: #2A88FA;
   font-family: Arial, san-serif;
   /* font-size: 42px; */
-  font-weigth: bold;
+  font-weight: bold;
   margin: 0;
   padding: 0;
   /* margin-bottom: 40px; */
