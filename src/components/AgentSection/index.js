@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Button from '../Button'
 import { Column, Row, ResponsiveRow } from '../Layout'
 import Paragraph from '../Paragraph'
 import Section from '../Section'
@@ -20,6 +21,7 @@ const AgentSection = () => (
           Each week, we’ll send you a fresh batch of hand-picked,
           personally-vetted candidates.
         </Paragraph>
+        <Button>Try today</Button>
       </Half>
       <Half>
         <Subtitle as="h5">
