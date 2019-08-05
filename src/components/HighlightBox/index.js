@@ -8,10 +8,10 @@ import { HighlightBoxWrap, Title, Description } from './styles'
 
 
 
-const HighlightBox = ({ position="left", title, description, children, color="#1E95EE" }) => (
-  <HighlightBoxWrap>
-    <Title position={position}>{title}</Title>
-    <Description position={position}>{ description || children }</Description>
+const HighlightBox = ({ color="#1E95EE", position="left", title, description, children }) => (
+  <HighlightBoxWrap position={position} color={color}>
+    <Title>{title}</Title>
+    <Description>{ description || children }</Description>
   </HighlightBoxWrap>
 );
 

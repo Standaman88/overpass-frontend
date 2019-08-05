@@ -4,24 +4,28 @@ import { Column } from '../Layout'
 import { SectionPrimary } from '../Section'
 
 
-export const HighlightBoxWrap = styled.div`
-  display: inline-flex;
+export const HighlightBoxWrap = styled(Column)`
+  justify-content: center;
+  align-items: ${props => props.position == 'right' ? 'flex-end' : 'flex-start'};
+  max-width: 420px;
+
+  && * {
+    color: ${props => props.color || '#1E95EE'} !important;
+    text-align: ${props => props.position || 'left'} !important;
+  }
 `;
 
 export const Title = styled.h3`
-  color: ${props => props.color || '#1E95EE'};
   font-family: Arial, san-serif;
   font-size: 42px;
   font-weigth: bold;
   margin: 0;
   margin-bottom: 40px;
-  text-align: ${props => props.position || 'left'}
 `;
 
 export const Description = styled.p`
-  color: ${props => props.color || '#1E95EE'};
   font-family: Arial, san-serif;
   font-size: 24px;
-  font-weigth: bold;
-  line-height: 2em;
+  font-weight: normal;
+  line-height: 1.5em;
 `;
