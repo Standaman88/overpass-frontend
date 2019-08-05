@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../../components/Layout'
 import NavbarSection from '../../components/NavbarSection'
-import IntroSection from '../../components/IntroSection'
+import HeroSection from '../../components/HeroSection'
 import CustomersSection from '../../components/CustomersSection'
 import AboutSection from '../../components/AboutSection'
 import AgentSection from '../../components/AgentSection'
@@ -15,7 +15,7 @@ import FooterSection from '../../components/FooterSection'
 const HomeView = () => (
   <Layout>
     <NavbarSection />
-    <IntroSection />
+    <HeroSection />
     <CustomersSection />
     <AboutSection />
     <AgentSection />
