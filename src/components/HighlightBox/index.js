@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import Icon from '../Icon'
 import Section from '../Section'
+import Title from '../Title'
 import { Column, Row } from '../Layout'
-import { HighlightBoxWrap, Title, Description } from './styles'
+import { HighlightBoxWrap, Description } from './styles'
 
 
 

@@ -15,14 +15,6 @@ export const HighlightBoxWrap = styled(Column)`
   }
 `;
 
-export const Title = styled.h3`
-  font-family: Arial, san-serif;
-  font-size: 42px;
-  font-weigth: bold;
-  margin: 0;
-  margin-bottom: 40px;
-`;
-
 export const Description = styled.p`
   font-family: Arial, san-serif;
   font-size: 24px;
