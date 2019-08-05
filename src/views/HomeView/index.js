@@ -12,15 +12,15 @@ import FooterSection from '../../components/FooterSection'
 
 const HomeView = () => (
   <Layout>
-    <NavbarSection className="bg-primary" />
-    <IntroSection className="bg-primary" />
+    <NavbarSection />
+    <IntroSection />
     <AgentSection />
-    <PricingSection className="bg-light" />
+    <PricingSection />
     <LaunchSection />
-    <MonitorSection className="bg-primary-light" />
+    <MonitorSection />
     <PaySection />
-    <SignupSection className="bg-primary" />
-    <FooterSection className="bg-dark" />
+    <SignupSection />
+    <FooterSection />
   </Layout>
 );
 
