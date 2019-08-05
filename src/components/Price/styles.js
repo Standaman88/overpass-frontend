@@ -19,7 +19,10 @@ export const Sign = styled.sup`
   font-family: Arial, san-serif;
   font-size: 36px;
   font-weight: bold;
-  // vertical-align: top;
+
+  vertical-align: top;
+  position: relative;
+  top: 16px;
 `;
 
 export const Time = styled.strong`
