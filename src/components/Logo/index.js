@@ -22,7 +22,8 @@ export const Logo = styled.img.attrs(({ name="intel" }) => ({
   display: inline-block;
   margin: 0;
   padding: 0;
-  height: 50px;
+  max-height: 50px;
+  height: auto;
   width: auto;
 `;
 
