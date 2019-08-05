@@ -15,13 +15,7 @@ const Paragraph = styled.p`
   font-weigth: bold;
   margin: 0;
   padding: 0;
-  /* margin-bottom: 40px; */
   line-height: 1.25em;
-
-  /* &&.xlarge { font-size: 24px; }
-  &&.large { font-size: 18px; }
-  &&.medium { font-size: 14px; }
-  &&.small { font-size: 12px; } */
 `;
 
 export default Paragraph;
