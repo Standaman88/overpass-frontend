@@ -6,7 +6,7 @@ import { FooterSectionWrap } from './styles'
 
 const FooterSection = () => (
   <FooterSectionWrap>
-    Footer Section
+    {/*Footer Section*/}
   </FooterSectionWrap>
 );
 
