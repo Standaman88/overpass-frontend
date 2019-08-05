@@ -13,7 +13,8 @@ const Container = styled.div.attrs({ className: 'container' })`
   max-width: 1200px;
 
   @media (max-width: 375px) {
-    max-width: 320px;
+    flex-wrap: wrap !important;
+    max-width: 320px !important;
   }
 `;
 
