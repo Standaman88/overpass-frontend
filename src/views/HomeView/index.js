@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import NavbarSection from '../../components/NavbarSection'
 import IntroSection from '../../components/IntroSection'
+import CustomersSection from '../../components/CustomersSection'
+import AboutSection from '../../components/AboutSection'
 import AgentSection from '../../components/AgentSection'
 import PricingSection from '../../components/PricingSection'
 import LaunchSection from '../../components/LaunchSection'
@@ -14,6 +16,8 @@ const HomeView = () => (
   <Layout>
     <NavbarSection />
     <IntroSection />
+    <CustomersSection />
+    <AboutSection />
     <AgentSection />
     <PricingSection />
     <LaunchSection />
