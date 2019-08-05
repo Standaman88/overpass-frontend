@@ -14,18 +14,15 @@ const HeroSection = () => (
   <HeroSectionWrap>
     <Container>
       <ResponsiveRow>
-        <Half>
-          <Title as="h3" color="white">
+        <Half style={{alignItems:'flex-start'}}>
+          <Title as="h3" color="white" style={{lineHeight:'1.25em'}}>
             Find, hire & manage your own remote sales team
           </Title>
-          <Paragraph color="white">
+          <Paragraph color="white" size="large">
             Overpass provides the talent and technology to
             make all of your sales campaigns a success
           </Paragraph>
-          <EmailForm />
-          <Paragraph color="white" size="small">
-            Get started in minutes. No credit card required.
-          </Paragraph>
+          <EmailForm caption="Get started in minutes. No credit card required." />
         </Half>
         <Half></Half>
       </ResponsiveRow>

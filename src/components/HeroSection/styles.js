@@ -8,6 +8,7 @@ export const HeroSectionWrap = styled(SectionPrimary)`
   background-image: url(${HeroImage});
   background-position: center right;
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: contain; */
+  background-size: 60% 90%;
   height: 550px;
 `;
