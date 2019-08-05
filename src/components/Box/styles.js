@@ -14,6 +14,6 @@ export const BoxWrap = styled(Column)`
   max-height: 240px;
   width: 500px;
 
-  margin: 0 20px;
+  margin: 15px 20px;
   padding: 50px 0;
 `;
