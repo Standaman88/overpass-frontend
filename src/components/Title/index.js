@@ -16,7 +16,7 @@ const Title = styled.h3`
   h3&& { font-size: 36px; }
   h4&& { font-size: 20px; }
   h5&& { font-size: 18px; }
-  h6&& { font-size: 12px; }
+  h6&& { font-size: 16px; }
 `;
 
 export default Title;
