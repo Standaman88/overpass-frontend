@@ -28,3 +28,10 @@ export const Row = styled.div`
   margin: 0;
   padding: 0;
 `;
+
+export const ResponsiveRow = styled(Row)`
+  flex-wrap: wrap;
+  /* flex-basis: 100px;
+  flex-grow: 1;
+  flex-shrink: 1; */
+`
