@@ -36,3 +36,9 @@ export const ResponsiveRow = styled(Row)`
   flex-grow: 1;
   flex-shrink: 1;
 `
+
+export const Half = styled(Column)`
+  flex-basis: 50%;
+  flex-grow: 1;
+  justify-content: center;
+`;
