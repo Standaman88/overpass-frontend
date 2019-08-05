@@ -14,10 +14,3 @@ export const HighlightBoxWrap = styled(Column)`
     text-align: ${props => props.position || 'left'} !important;
   }
 `;
-
-export const Description = styled.p`
-  font-family: Arial, san-serif;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 1.5em;
-`;
