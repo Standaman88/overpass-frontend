@@ -19,7 +19,7 @@ const LaunchSection = () => (
         <img src={LaunchImage} />
       </Column>
     </Row>
-    <Row>
+    <Row style={{marginTop:50}}>
       <InfoBox icon="upload" title="Upload your leads">Easily upload and manage your contacts with custom fields and dynamic lists.</InfoBox>
       <InfoBox icon="calling" title="Start Calling">Use custom outbound numbers, calling queues and our preview dialer to ensure success with your call campaigns.</InfoBox>
       <InfoBox icon="script" title="Write your script">Create personalized scripts to ensure brand consistency by specifying exactly what agents should say on the phone.</InfoBox>
