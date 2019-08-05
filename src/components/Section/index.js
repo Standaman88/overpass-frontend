@@ -6,6 +6,8 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   min-height: 80px;
+  margin: 0;
+  padding: 50px 0;
 `;
 
 export const SectionPrimary = styled(Section)` background-color: #0092FF; `;
