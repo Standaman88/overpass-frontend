@@ -32,7 +32,7 @@ export const Row = styled.div`
 export const ResponsiveRow = styled(Row)`
   flex-wrap: wrap;
   justify-content: center;
-  flex-basis: 10px;
+  flex-basis: auto;
   flex-grow: 1;
   flex-shrink: 1;
 `
