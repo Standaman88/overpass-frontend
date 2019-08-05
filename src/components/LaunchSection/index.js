@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import HighlightBox from '../HighlightBox'
 import InfoBox from '../InfoBox'
-import { Column, Row } from '../Layout'
+import { Column, Row, ResponsiveRow } from '../Layout'
 import Section from '../Section'
 import { LaunchSectionWrap } from './styles'
 import LaunchImage from './images/launch.svg'
@@ -10,7 +10,7 @@ import LaunchImage from './images/launch.svg'
 
 const LaunchSection = () => (
   <LaunchSectionWrap>
-    <Row>
+    <ResponsiveRow>
       <HighlightBox title="Launch" position="left">
         Set up your first campaign and get your reps right to work
         on our fully integrated, browser-based platform.
@@ -18,7 +18,7 @@ const LaunchSection = () => (
       <Column>
         <img src={LaunchImage} />
       </Column>
-    </Row>
+    </ResponsiveRow>
     <Row style={{marginTop:50}}>
       <InfoBox icon="upload" title="Upload your leads">Easily upload and manage your contacts with custom fields and dynamic lists.</InfoBox>
       <InfoBox icon="calling" title="Start Calling">Use custom outbound numbers, calling queues and our preview dialer to ensure success with your call campaigns.</InfoBox>

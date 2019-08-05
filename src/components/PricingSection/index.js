@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Column, Row } from '../Layout'
+import { Column, ResponsiveRow } from '../Layout'
 import Paragraph from '../Paragraph'
 import PriceBox from '../PriceBox'
 import Section from '../Section'
@@ -21,10 +21,10 @@ const PricingSection = () => (
         With our free call center software, all you pay for is
         talk-time and your contractor’s hourly rate.
       </PricingParagraph>
-      <Row style={{justifyContent:'center',marginTop:35}}>
+      <ResponsiveRow style={{justifyContent:'center',marginTop:35}}>
         <PriceBox title="Average Marketplace Rates"></PriceBox>
         <PriceBox title="Make Standard Calls"></PriceBox>
-      </Row>
+      </ResponsiveRow>
     </Column>
   </PricingSectionWrap>
 );
