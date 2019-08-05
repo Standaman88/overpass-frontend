@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import { PriceBoxWrap, Digit, Sign, Time } from './styles'
 
 
-const Price = ({ price=0, time='', before='', after='', ...props }) => (
+const Price = ({ time='', before='', after='', children ...props }) => (
   <PriceWrap {...props}>
     {before && <Sign>{before}</Sign>}
-    <Digit>{price}</Digit>
+    <Digit>{children}</Digit>
     {after && <Sign>{after}</Sign>}
     {time && <Time>{time}</Time>}
   </PriceWrap>
