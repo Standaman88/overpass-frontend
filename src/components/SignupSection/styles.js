@@ -8,6 +8,8 @@ export const SignupSectionWrap = styled(SectionPrimary)`
   background-image: url(${SignupImage});
   background-position: center right;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 550px;
+  /* background-size: contain; */
+  background-size: 80% 80%;
+  background-position-x: 235%;
+  height: 520px;
 `;
