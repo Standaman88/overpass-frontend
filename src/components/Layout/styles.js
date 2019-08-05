@@ -11,17 +11,20 @@ export const LayoutWrap = styled.main`
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
   justify-content: flex-start;
   align-content: center;
   align-items: center;
+  width: auto;
+
+  margin: 0;
+  padding: 0;
 `;
 
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  width: auto;
   margin: 0;
   padding: 0;
 `;
