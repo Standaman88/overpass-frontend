@@ -19,9 +19,3 @@ export const Subtitle = styled(Title)`
   line-height: 1.5em;
   text-align: center;
 `;
-
-export const Half = styled(Column)`
-  flex-basis: 50%;
-  flex-grow: 1;
-  justify-content: center;
-`;
